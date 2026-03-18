@@ -14,6 +14,20 @@
 
 
 fun main() {
-    println("Hello World!")
+    println("Pinned game")
+
+    for (i in 1..16) {
+
+        val squares = mutableListOf<String>()
+
+        squares.add("Square $i")
+
+        println(squares)
+
+        println("╭────────────╮")
+        println("│            │")
+        println("╰────────────╯")
+
+    }
 }
 
