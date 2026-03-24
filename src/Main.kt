@@ -11,15 +11,12 @@
  * =====================================================================
  */
 
-fun printAsHorizTable(squares: List<Int>, width: Int = 3){
 
-    val count = squares.size
-
+fun printAsHorizTable(squares: List<String>, width: Int = 10) {
+    squares.size
     val line="─".repeat(width + 2)
-
-    val top = "╭${line}╮"
-
-    val bot = "╰${line}╯"
+    val top = "╭$line╮"
+    val bot = "╰$line╯"
 
     fun printAsCol(s: String) = print("│ ${s.padStart(width)} ")
 
@@ -28,21 +25,22 @@ fun printAsHorizTable(squares: List<Int>, width: Int = 3){
     for (square in squares)
         printAsCol("%,d".format(square))
 
-
     println("│")
 
     println(bot)
 }
 
 fun main() {
-    println("Pinned game")
 
-    val scores = listOf(1, 2, 3, 4, 5, 6)
-    printAsHorizTable(scores)
+    val board = (1..16).map { "Square $it" }
+    board.chunked(5)
+
+    println("Pinned game")
 
     for (i in 1..16) {
 
         val squares = mutableListOf<String>()
+
 
         squares.add("Square $i")
 
