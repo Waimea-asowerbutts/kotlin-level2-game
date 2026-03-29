@@ -31,8 +31,39 @@ fun printAsHorizTable(items: List<Int>, width: Int = 3) {
 fun main() {
     println("Pinned game")
 
-    val distances = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
+    println("Enter A Square number: ")
+    
+    val distances = (1..16).toList()
+
     printAsHorizTable(distances, 8)
+
+    //Random Black Squares, every time the user plays the game it will be randomly generated from 1..16
+    val nums = listOf(1..16)
+
+    nums.size - 1..16
+
+    nums[0]
+    nums.first()
+    nums.last()
+
+    val sums = listOf(1..16)
+
+    sums[0]
+
+    val totalSquares = 16
+    val blackSquareLimit = 5
+
+    if (blackSquareLimit > 5) {
+
+
+
+        val numberString = readln()
+
+        val numberInt: Int = numberString.toInt()
+
+        readln()
+        println("Well, You Lost... You Had Chosen The Wrong Spots!, Now You Suffer The Consequences")
+    }
 
 
     val board = (1..16).map { "Square $it" }
