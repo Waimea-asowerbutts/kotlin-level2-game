@@ -11,7 +11,9 @@
  * =====================================================================
  */
 
+import kotlin.random.Random
 
+//This does something (it creates the boxes)
 fun printAsHorizTable(items: List<Int>, width: Int = 3) {
     val count = items.size
     val line = "─".repeat(width + 2)
@@ -28,11 +30,14 @@ fun printAsHorizTable(items: List<Int>, width: Int = 3) {
     println(bot)
 }
 
+// Epstein was here
 fun main() {
     println("Pinned game")
 
-    println("Enter A Square number: ")
-    
+    println("Player 1 Enter A Square number: ")
+
+    readln()
+
     val distances = (1..16).toList()
 
     printAsHorizTable(distances, 8)
@@ -55,8 +60,6 @@ fun main() {
 
     if (blackSquareLimit > 5) {
 
-
-
         val numberString = readln()
 
         val numberInt: Int = numberString.toInt()
@@ -68,7 +71,6 @@ fun main() {
 
     val board = (1..16).map { "Square $it" }
     board.chunked(5)
-
 
 
     for (i in 1..16) {
