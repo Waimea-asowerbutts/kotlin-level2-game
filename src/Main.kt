@@ -11,8 +11,6 @@
  * =====================================================================
  */
 
-import kotlin.random.Random
-
 //This does something (it creates the boxes)
 fun printAsHorizTable(items: List<Int>, width: Int = 3) {
     val count = items.size
@@ -30,10 +28,12 @@ fun printAsHorizTable(items: List<Int>, width: Int = 3) {
     println(bot)
 }
 
-// Epstein was here
 fun main() {
     println("Pinned game")
 
+    println(" :) --> https://www.youtube.com/watch?v=dQw4w9WgXcQ ")
+
+    // Player input
     println("Player 1 Enter A Square number: ")
 
     readln()
@@ -68,6 +68,8 @@ fun main() {
         println("Well, You Lost... You Had Chosen The Wrong Spots!, Now You Suffer The Consequences")
     }
 
+    // Working on a limiter, making it say you lost or will count towards being incorrect for the counters.
+    val limit = 16
 
     val board = (1..16).map { "Square $it" }
     board.chunked(5)
