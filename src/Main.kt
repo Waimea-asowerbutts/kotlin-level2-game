@@ -2,12 +2,12 @@
  * =====================================================================
  * Programming Project for NCEA Level 2, Standard 91896
  * ---------------------------------------------------------------------
- * Project Name:   PROJECT NAME HERE
- * Project Author: PROJECT AUTHOR HERE
+ * Project Name:   Pinned Game
+ * Project Author: Aiden Sowerbutts
  * GitHub Repo:    GITHUB REPO URL HERE
  * ---------------------------------------------------------------------
  * Notes:
- * PROJECT NOTES HERE
+ * ???
  * =====================================================================
  */
 
@@ -31,12 +31,25 @@ fun printAsHorizTable(items: List<Int>, width: Int = 3) {
 fun main() {
     println("Pinned game")
 
-    println(" :) --> https://www.youtube.com/watch?v=dQw4w9WgXcQ ")
+
 
     // Player input
     println("Player 1 Enter A Square number: ")
 
     readln()
+// Randomised counters between both players (limit of players is two)
+    fun counters() = println("Counters: 5")
+    println("White Counter")
+    println("Black Counter")
+
+    val counter = mutableListOf(1..5)
+    val pick = counter.random()
+
+    counter.shuffle()
+    println("Randomised: $counter")
+
+    println("Player 1 received: $pick")
+    println("Player 2 Received: $pick")
 
     val distances = (1..16).toList()
 
@@ -55,18 +68,8 @@ fun main() {
 
     sums[0]
 
-    val totalSquares = 16
-    val blackSquareLimit = 5
 
-    if (blackSquareLimit > 5) {
 
-        val numberString = readln()
-
-        val numberInt: Int = numberString.toInt()
-
-        readln()
-        println("Well, You Lost... You Had Chosen The Wrong Spots!, Now You Suffer The Consequences")
-    }
 
     // Working on a limiter, making it say you lost or will count towards being incorrect for the counters.
     val limit = 16
@@ -83,6 +86,8 @@ fun main() {
 
             val scores = listOf(1..16)
             printAsHorizTable(scores)
+
+            println(" Totally Not A RickRoll --> https://www.youtube.com/watch?v=dQw4w9WgXcQ ")
         }
     }
 }
