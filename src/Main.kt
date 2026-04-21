@@ -32,12 +32,15 @@ fun main() {
 
     println("Pinned game")
 
-
-
     // Player input
-    println("Player 1 Enter A Square number: ")
+    println("...you start: ")
 
     readln()
+
+    // attempting to make player turns
+    val players = listOf("Player One", "Player Two")
+    println(players[0])
+    println(players[1])
 
     // har harr har har harrr, har har har har harrrrrr, har har har har, har har har harrrrrrrrrrrrrrr
     println(" Totally Not A RickRoll --> https://www.youtube.com/watch?v=dQw4w9WgXcQ ")
@@ -74,29 +77,6 @@ fun main() {
     println("White Counter")
     println("Black Counter")
 
-    val counter = mutableListOf(1..5)
-
-
-    counter.shuffle()
-    println("Randomised: $counter")
-    val pick = counter.random()
-    println("Player 1 received: $pick")
-    println("Player 2 Received: $pick")
-
-    readln()
-
-
-
-    }
-
-    fun blackcounter() {
-        fun whitecounter() {
-
-
-            for (whitecounter in blackcounter()) {
-                println("Congraulations You won ...")
-            }
-        }
     }
 
     val distances = (1..16).toList()
@@ -116,15 +96,10 @@ fun main() {
 
     sums[0]
 
-
-
-
     // Working on a limiter, making it say you lost or will count towards being incorrect for the counters.
-    val limit = 16
 
     val board = (1..16).map { "Square $it" }
     board.chunked(5)
-
 
     for (i in 1..16) {
 
@@ -137,3 +112,28 @@ fun main() {
         }
     }
 }
+
+//⠀⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⢰⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠈⢿⣿⣿⣿⣗⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠘⣿⣿⣿⣿⣷⣬⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠈⣿⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⣿⣿⣿⣿⡃⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⢻⣿⣯⣅⣰⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⢀⠤⠶⢶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⠀⣿⣿⣿⣿⣿⡏⠀⠀⠀⣼⣧⡀⠀⠀⠈⠛⣆⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⠀⠀⣰⣿⣟⠿⣗⠾⢺⣦⡸⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⣿⣿⣿⣿⣿⣯⣿⡄⠀⢹⣿⣿⠳⡄⣿⣤⠉⡁⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⡇⠀⠀⢹⣿⣡⡻⠿⢟⢠⠁⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⡧⡀⢠⣾⣿⣿⣿⣶⣶⠇⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⢇⠁⠰⣄⡀⠙⢸⣽⢁⠀⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⠀⣿⣿⣿⣿⣿⡿⡼⣁⣀⣜⣶⣤⡀⠑⠄⠠⠀⠀⠀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⠀⠘⣿⣿⣿⣻⡟⠟⣿⣇⠀⠉⡉⢷⢄⡸⠀⠐⠀⡀⠀⠀⠀⠀⠀//
+//⠀⠀⠀⠀⠀⢻⣿⣿⣼⢠⢠⣿⣿⡇⠀⠀⠘⣶⠧⣫⠉⢀⠀⠠⠀⠀⠀⠀//
+//⠀⠀⠀⠀⠀⢸⣿⣿⣿⣯⠚⣿⣿⣗⠒⠀⠀⠀⢏⣮⡅⠘⠳⣄⠳⠀⠀⠀//
+//⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⡷⠆⠀⡀⠈⠹⣶⣤⠀⢉⠄⢂⠀⠀//
+//⠀⠀⠀⠀⠀⠀⢻⣻⣿⣿⣿⣿⣿⣿⣿⣶⣦⡇⣥⡢⠸⣷⢦⣘⠓⢪⡀⠀//
+//⠀⠀⠀⠀⠀⢀⡜⠩⠭⠉⠉⠉⠙⠛⠿⠿⣿⣹⣿⡿⠇⠀⠋⠛⠆⡿⢃⠀//
+//⠀⠀⠀⠀⢀⢯⣄⡀⠀⢀⢴⠀⠠⠀⠀⠀⢈⣨⣤⢄⣀⠀⠀⣆⠀⠑⢬⡆//
+//⠀⠀⠀⢀⠂⠀⠟⠋⠍⠋⡌⠀⠀⠀⠀⠀⡌⠈⢿⣯⣷⡀⣀⣿⣀⠀⠀⠈//
+//Auf der Heide blüht ein kleines Blümelein) Auf der Heide blüht ein kleines Blümelein Und das heißt: Erika. Heiß von hunderttausend kleinen Bienelein Wird umschwärmt: Erika. Denn ihr Herz ist voller Süßigkeit, Zarter Duft entströmt dem Blütenkleid. Auf der Heide blüht ein kleines Blümelein Und das heißt: Erika.
