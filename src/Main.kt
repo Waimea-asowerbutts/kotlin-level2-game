@@ -29,6 +29,7 @@ fun printAsHorizTable(items: List<Int>, width: Int = 3) {
 }
 
 fun main() {
+
     println("Pinned game")
 
 
@@ -37,19 +38,66 @@ fun main() {
     println("Player 1 Enter A Square number: ")
 
     readln()
+
+    // har harr har har harrr, har har har har harrrrrr, har har har har, har har har harrrrrrrrrrrrrrr
+    println(" Totally Not A RickRoll --> https://www.youtube.com/watch?v=dQw4w9WgXcQ ")
+
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⢳⠃⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠀⠀⠀⠀⠀⡀⠀⠀⠀⠼⢿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠉⠀⠀⠈⠉⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⠿⠟⠛⠋⠛⠻⠿⢿⣿⣿⣿⣿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀⠀⠙⠻⢿⣿⣿⡿⠡⠐⠁⠀⠀⠀⠀⠀⠀⠀⡈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠹⠿⠿⠛⠀⠀⠀⠀⠀⢰⢶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⡇⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⡀⠀⠀⠀⠀⣾⣴⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⡇⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠄⠀⡀⠀⠀⣀⡀⢀⣘⣻⣻⡿⣿⣷⣄⣀⣞⣿⡖⠀⠿⣦⠀⠀⠀⠀⠀⠀⠀⠀⣀⠠⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣷⡈⠲⡀⠀⠀⠀⣠⠎⠠⠀⠀⠀⠀⠐⢀⢂⢱⠟⠎⢙⣋⣉⡓⠘⠫⠜⣣⡿⠛⣅⡘⠓⣻⡧⠀⡄⣤⣀⡀⠐⠊⣁⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣶⣦⣤⣤⣾⡏⢠⠶⠿⢿⣿⣷⣦⠀⠀⠀⠠⠾⠛⠻⣿⣿⣷⣆⠀⠉⠁⢀⠸⠇⠈⢧⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⡇⠀⠀⢸⣿⣿⣿⠇⠀⠀⠰⡀⠀⠐⣼⣿⣿⠟⠀⠀⠀⣼⣦⣤⠐⢬⠆⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠙⠲⠾⠿⠛⠋⠁⠀⠀⠀⠀⠙⠛⠛⠛⠋⠁⠀⠀⠀⢀⣿⣿⠇⠘⠞⠣⠄⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠩⠈⠀⠱⢀⡀⢀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠄⠰⣞⠶⣦⣄⣠⣶⣦⠀⢀⣶⣦⣾⣿⣗⡀⢁⠀⢀⣀⠀⠀⠂⠀⠀⠀⣧⠘⣷⣄⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⣄⣺⣥⢛⣶⣿⣿⣿⣿⢠⣿⣿⣿⢿⡛⡿⣿⣿⣷⣾⣟⣉⣻⡷⢀⠀⠀⢸⠀⠽⠙⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⡀⢸⣿⣻⢃⣾⡿⣿⣿⣿⣿⠰⣿⣿⣿⣯⣿⣶⣿⣿⣿⣿⣿⢋⣻⢢⣀⠁⠀⠈⠐⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠉⠀⠻⢛⣿⣿⣿⣧⣾⡀⣘⡿⣿⣿⢻⣆⠻⣟⣿⣿⠷⠋⡉⠀⠁⠀⠀⠀⢠⡄⠀⠀⠀⣀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣤⣤⡄⠀⠁⠈⠀⠀⠀⠈⠀⠀⠀⠁⠈⠀⠀⠀⢀⡀⠀⠀⣄⢀⠀⠀⠀⢈⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠤⠀⠠⠐⠤⠐⠖⠂⠀⣐⠩⠉⠀⠈⠁⠀⠀⠀⠀⢨⠇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⣴⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⠀⠀⠀⠀⢐⠇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠛⣋⣀⡀⢀⣀⡀⠀⠀⠀⠀⠀⠀⣀⣀⠀⢦⠇⠀⢀⣀⠞⠛⠀⠈⠙⠛⠛⠛⠛⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⢉⠀⠀⣄⣀⠀⠀⠈⠙⠃⠘⠛⠛⠀⠀⠺⠿⠇⠘⠛⠛⠀⠀⢀⣤⣤⡽⠟⠁⠀⠀⠀⠠⣄⠀⠀⡀⠀⠀⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⣿⣿⠋⣠⣔⠛⠂⠀⠻⢻⣗⣴⢤⢀⣀⢤⡀⢠⡀⠀⠀⠀⠀⣀⡀⠀⠐⢲⠚⠛⠀⠁⠀⠀⠀⠀⠀⠀⢺⣷⣼⣿⡿⠆⠀⠀⠀⠀⠀⠈⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⣿⡿⠁⢼⠑⠉⠀⠀⠀⠀⠀⠈⠁⠈⠁⠸⠟⠻⢟⠫⣤⠀⠐⠠⠐⠙⠀⠀⠀⠀⠀⠀⠀⡀⢿⠆⠄⠀⠀⣙⠿⠛⠁⠤⠀⠀⠀⡀⣄⠀⠸⣤⣄⡀⠉⠻⣿⣿⣿⣿⣿")
+    println("⣿⣿⣿⣿⡿⠁⢷⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⢰⠀⣄⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⡐⣿⣿⣷⣷⣿⣿⣧⣠⡀⠈⠻⣿⣿⣿")
+    println("⣿⣿⣿⣿⠏⢐⢸⡿⢧⠀⠢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠃⠀⢠⠋⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠾⣾⣿⢿⣿⣿⣿⣾⢿⣦⡀⠘⢿⣿")
+    println("⣿⣿⠟⠋⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⣤⣦⡌⣳⣿⣄⡀⠀⠀⠀⠂⠠⠠⠚⠁⠿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢹⢟⣻⣽⣿⣿⣿⣿⢽⣿⣤⡈⢿")
+    println("⠏⣡⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢄⢰⣟⡣⠶⠗⠃⣰⢚⠋⠿⢿⣿⣿⠷⠦⠤⡠⢤⠀⠴⢶⣤⣴⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠉⠵⠝⡳⠶⠌⢻⡻⠶⠧⠈")
+
 // Randomised counters between both players (limit of players is two)
-    fun counters() = println("Counters: 5")
+    fun counters() {
     println("White Counter")
     println("Black Counter")
 
     val counter = mutableListOf(1..5)
-    val pick = counter.random()
+
 
     counter.shuffle()
     println("Randomised: $counter")
-
+    val pick = counter.random()
     println("Player 1 received: $pick")
     println("Player 2 Received: $pick")
+
+    readln()
+
+
+
+    }
+
+    fun blackcounter() {
+        fun whitecounter() {
+
+
+            for (whitecounter in blackcounter()) {
+                println("Congraulations You won ...")
+            }
+        }
+    }
 
     val distances = (1..16).toList()
 
@@ -86,8 +134,6 @@ fun main() {
 
             val scores = listOf(1..16)
             printAsHorizTable(scores)
-
-            println(" Totally Not A RickRoll --> https://www.youtube.com/watch?v=dQw4w9WgXcQ ")
         }
     }
 }
