@@ -11,26 +11,12 @@
  * =====================================================================
  */
 
-//This does something (it creates the boxes)
-fun printAsHorizTable(items: List<Int>, width: Int = 3) {
-    val count = items.size
-    val line = "─".repeat(width + 2)
-    val top = ("╭" + line) + ("┬" + line).repeat(count - 1) + "╮"
-    val bot = ("╰" + line) + ("┴" + line).repeat(count - 1) + "╯"
-
-    fun printAsCol(s: String) = print("│ ${s.padStart(width)} ")
-
-    println(top)
-
-    for (item in items) printAsCol("%,d".format(item))
-    println("│")
-
-    println(bot)
-}
+// Controls the creation of the 16 boxes/squares
 
 fun main() {
 
-    println("\uD83D\uDCCCPinned game \uD83D\uDCCC")
+    // Title/Introduction to the game
+    println("\uD83D\uDCCC Pinned game \uD83D\uDCCC")
     // Player/User input
     println("Please Enter Player 1 name here: ")
     val player1 = readln()
@@ -44,9 +30,40 @@ fun main() {
 
     println("\n$starter Goes first!")
 
-    println(" Totally Not A RickRoll --> https://www.youtube.com/watch?v=dQw4w9WgXcQ ")
+    // introduction of the rules of the game
+    println("Rules: " +
+            "Welcome $player1,$player2. A row of 16 squares, numbered 1 to 16 from left to right\n" +
+            "5 counters (total) are placed randomly on the board - 4 white and 1 black\n" +
+            "\n$starter, It's Your turn currently")
 
-    //working on scoring system. . .
+    println("Please choose a counter...")
+
+    readln()
+
+    fun printAsHorizTable(items: List<Int>, width: Int = 3) {
+        val count = items.size
+        val line = "─".repeat(width + 2)
+        val top = ("╭" + line) + ("┬" + line).repeat(count - 1) + "╮"
+        val bot = ("╰" + line) + ("┴" + line).repeat(count - 1) + "╯"
+
+        fun printAsCol(s: String) = print("│ ${s.padStart(width)} ")
+
+        println(top)
+
+        for (item in items) printAsCol("%,d".format(item))
+        println("│")
+
+        println(bot)
+    }
+
+    println("Congratulations!, you wasted your time because im not finished with this")
+
+    fun playeable(counters: List<String>){
+
+    var counter1 = ("⚪")
+
+    var counter2 = ("⚫")
+}
 
     val distances = (1..16).toList()
 
@@ -60,7 +77,6 @@ fun main() {
         val squares = mutableListOf<String>()
 
         fun printAsHorizTable(items: List<IntRange>) {
-
 
         }
     }
